@@ -3,18 +3,13 @@
 :root {
     font-size: 62.5%;
     --font: "Montserrat", serif;
-
-    /* CORES */
     --background-geral: #F8F9FF;
     --cor-primaria: #2D2D2D;
     --cor-primaria-claro: #4E4D4D;
-
     --cor-secundaria: #FFFFFF;
     --cor-secundaria-escuro: #E5F4F2;
-
     --cor-terciaria: #009379;
     --cor-terciaria-claro: #00d4ad;
-
     --cor-destaque1: #3366FF;
     --cor-destaque2: #F2BFAF;
 }
