@@ -28,6 +28,15 @@ A branch em que você está será marcada com um asterisco (*).
 
 ### O que fazer após realizar uma alteração no código?
 
+Adicionar alterações ao commit:
+```
+git add .
+
+ou
+
+git add nome-do-arquivo-especifico
+```
+
 Caso queira mandar as alterações para o repositório do GitHub, você deve realizar um commit:
 ```
 git commit -m "mensagem do commit"
@@ -35,3 +44,8 @@ git commit -m "mensagem do commit"
 
 Tente sempre deixar claro o que você fez na mensagem do commit.
 [Dicas para escrever uma boa mensagem](https://www.linkedin.com/feed/update/urn:li:activity:7260296747938123776/).
+
+Para enviar o commit:
+```
+git push origin nome-de-sua-branch
+```
