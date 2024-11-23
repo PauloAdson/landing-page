@@ -1,7 +1,7 @@
 # landing-page
 Projeto de Landing Page | Experiência com colaboração
 
-[Link ara o Modelo do Projeto](https://www.figma.com/design/cQQtsHl9Dh88kSNF6M1nZT/Landing-Page-UI-Kit---Fully-customizable-landing-page-UI-kit---Export-as-HTML-(Community)?node-id=0-1&node-type=canvas&t=6Z4fn9uileeJPBa7-0).
+[Link para o Modelo do Projeto](https://www.figma.com/design/cQQtsHl9Dh88kSNF6M1nZT/Landing-Page-UI-Kit---Fully-customizable-landing-page-UI-kit---Export-as-HTML-(Community)?node-id=0-1&node-type=canvas&t=6Z4fn9uileeJPBa7-0).
 
 ### Como pegar as atualizações que o outro está fazendo?
 
