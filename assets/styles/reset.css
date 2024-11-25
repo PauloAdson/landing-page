@@ -7,9 +7,9 @@
     --cor-primaria: #2D2D2D;
     --cor-primaria-claro: #4E4D4D;
     --cor-secundaria: #FFFFFF;
-    --cor-secundaria-escuro: #E5F4F2;
     --cor-terciaria: #009379;
-    --cor-terciaria-claro: #00d4ad;
+    --cor-terciaria-claro: #E5F4F2;
+    --cor-terciaria-hover: #00d4ad;
     --cor-destaque1: #3366FF;
     --cor-destaque2: #F2BFAF;
 }
@@ -125,6 +125,7 @@ section {
 body {
     line-height: 1;
     font-family: var(--font);
+    background-color: var(--background-geral);
 }
 
 ol,
