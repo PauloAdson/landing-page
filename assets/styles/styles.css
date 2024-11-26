@@ -1,19 +1,30 @@
+.max-width {
+    max-width: 1180px;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.mobile {
+    display: none;
+}
+
+.span-destaque {
+    color: var(--cor-destaque2);
+}
+
 header {
     display: flex;
     align-items: center;
     box-sizing: border-box;
     justify-content: center;
-    width: 100%;
     height: 100px;
-    padding: 0 50px;
 }
 
 nav.header_menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1180px;
-    width: 100%;
+    box-sizing: border-box;
 }
 
 div.header_menu-links {
@@ -21,6 +32,8 @@ div.header_menu-links {
     align-items: center;
     gap: 20px;
 }
+
+/* ESTILO GERAL DOS BOTÕES */
 
 a.btn {
     display: flex;
@@ -46,9 +59,82 @@ a.btn-how-it-works {
     background-color: var(--cor-terciaria-claro);
 }
 
+.header_menu-links .btn-how-it-works:hover {
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--cor-terciaria-claro);
+}
+
 a.btn-start {
     background-color: var(--cor-terciaria);
     width: 221px;
     height: 60px;
     color: var(--cor-secundaria);
+}
+
+a.btn-start:hover {
+    background-color: var(--cor-terciaria-hover);
+}
+
+/* CONTEÚDO PRINCIPAL MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* SEÇÃO 1 HERO */
+
+.hero {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    /* height: calc(100vh - 100px); */
+    padding-top: 166px;
+    padding-bottom: 166px;
+    gap: 70px;
+}
+
+div.hero_container-content {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 32px;
+    width: 60%;
+}
+
+div.hero_container-content h1 {
+    font-size: 4.6rem;
+    font-weight: 700;
+    line-height: 62px;
+}
+
+div.hero_container-content p {
+    line-height: 24px;
+}
+
+div.hero_container-img {
+    width: 40%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+div.hero_container-img img.celular-img {
+    width: 100%;
+}
+
+
+div.hero_container-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.hero_container-btn a.btn-how-it-works {
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--cor-terciaria);
+}
+
+.hero_container-btn a.btn-how-it-works:hover {
+    background-color: var(--cor-terciaria-claro);
 }
