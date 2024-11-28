@@ -157,7 +157,7 @@ div.clients_container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 60px;
     box-sizing: border-box;
     padding: 60px 0;
