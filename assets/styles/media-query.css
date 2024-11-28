@@ -8,6 +8,8 @@
         display: none;
     }
 
+    /* SEÇÃO 1 HERO */
+
     .hero_container-btn .btn-how-it-works.display-none {
         display: none;
     }
@@ -29,6 +31,16 @@
 
     div.hero_container-img {
         width: 320px;
+    }
+
+    /* SEÇÃO 2 CLIENTES */
+    section.clients {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    div.clients_container {
+        gap: 40px;
     }
 }
 
