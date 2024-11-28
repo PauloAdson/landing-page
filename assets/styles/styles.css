@@ -1,7 +1,7 @@
 .max-width {
     max-width: 1180px;
     width: 100%;
-    padding: 0 12px;
+    padding: 120px 12px;
 }
 
 .mobile {
@@ -93,8 +93,8 @@ main {
     align-items: center;
     box-sizing: border-box;
     /* height: calc(100vh - 100px); */
-    padding-top: 166px;
-    padding-bottom: 166px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     gap: 70px;
 }
 

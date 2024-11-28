@@ -48,15 +48,19 @@
 /* RESPONSIVIDADE PARA TABLETS */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    section.hero {
-        padding-top: 100px;
-        padding-bottom: 100px;
+
+    section.max-width {
+        padding: 100px 12px;
     }
 }
 
 /* RESPONSIVIDADE PARA SMARTPHONES */
 
 @media screen and (max-width: 637px) {
+    section.max-width {
+        padding: 60px 12px;
+    }
+
     .mobile {
         display: block;
     }
@@ -71,11 +75,6 @@
 
     header {
         padding: 0 12px;
-    }
-
-    section.hero {
-        padding-top: 60px;
-        padding-bottom: 60px;
     }
 
     div.hero_container-content {
