@@ -79,6 +79,8 @@ a.btn-start:hover {
 
 main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     box-sizing: border-box;
     width: 100%;
@@ -137,4 +139,30 @@ div.hero_container-btn {
 
 .hero_container-btn a.btn-how-it-works:hover {
     background-color: var(--cor-terciaria-claro);
+}
+
+/* SEÇÃO 2 CLIENTES */
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+div.clients_container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 60px;
+    box-sizing: border-box;
+    padding: 60px 0;
+    width: 100%;
+    border: 1px solid var(--cor-secundaria-escuro);
+    border-left: none;
+    border-right: none;
 }
