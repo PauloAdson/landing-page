@@ -54,6 +54,37 @@
     div.features_content {
         width: 100%;
     }
+
+    /* SEÇÃO 4 METRICS */
+
+    div.metrics_container {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    div.metrics_content {
+        width: 300px;
+    }
+
+    /* SEÇÃO 5 UI KIT */
+
+    section.uikit {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .uikit_container-content {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* SEÇÃO 7 PLANS */
+
+    div.plans_container-content {
+        width: 100%;
+    }
 }
 
 /* RESPONSIVIDADE PARA TABLETS */
@@ -70,6 +101,12 @@
 
     .features {
         gap: 40px;
+    }
+
+    /* SEÇÃO 5 UI KIT */
+
+    .uikit_container-img {
+        width: 60%;
     }
 }
 
@@ -96,6 +133,8 @@
         padding: 0 12px;
     }
 
+    /* SEÇÃO 1 HERO INICIO */
+
     div.hero_container-content {
         gap: 20px;
     }
@@ -105,7 +144,15 @@
         line-height: 52px;
     }
 
+    /* SEÇÃO 3 FEATURES */
+
     .features {
         gap: 30px;
+    }
+
+    /* SEÇÃO 5 UI KIT */
+
+    .uikit_container-img {
+        width: 90%;
     }
 }

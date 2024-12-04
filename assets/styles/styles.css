@@ -15,6 +15,11 @@
 
 .title-sections {
     font-size: 3rem;
+    line-height: 42px;
+}
+
+p {
+    line-height: 28px;
 }
 
 header {
@@ -79,12 +84,10 @@ a.btn-start {
     width: 221px;
     height: 60px;
     color: var(--cor-secundaria);
-
 }
 
 a.btn-start:hover {
     background-color: var(--cor-terciaria-hover);
-
 }
 
 /* CONTEÚDO PRINCIPAL MAIN */
@@ -103,10 +106,6 @@ main {
 .hero {
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-    /* height: calc(100vh - 100px); */
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 70px;
 }
 
@@ -122,10 +121,6 @@ div.hero_container-content h1 {
     font-size: 4.6rem;
     font-weight: 700;
     line-height: 62px;
-}
-
-div.hero_container-content p {
-    line-height: 24px;
 }
 
 div.hero_container-btn {
@@ -182,6 +177,7 @@ div.clients_container {
 
 /* SEÇÃO 3 FEATURES */
 
+
 .features {
     display: flex;
     flex-direction: column;
@@ -218,10 +214,6 @@ div.clients_container {
     font-size: 2.4rem;
 }
 
-.features_content p {
-    line-height: 28px;
-}
-
 .features_content a {
     display: flex;
     align-items: center;
@@ -243,4 +235,181 @@ div.clients_container {
 
 .features_content a:hover svg path {
     stroke: var(--cor-terciaria-hover);
+}
+
+/* SEÇÃO 4 METRICS */
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 42px;
+    width: 100%;
+}
+
+.metrics_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+
+.metrics_content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+    padding: 48px;
+    width: 25%;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 4px solid var(--cor-destaque1);
+}
+
+.metrics_content h3 {
+    font-size: 3.2rem;
+}
+
+/* SEÇÃO 5 UI KIT */
+
+.uikit {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.uikit_container-img {
+    display: flex;
+    box-sizing: border-box;
+    width: 40%;
+}
+
+.uikit_container-img img {
+    width: 100%;
+}
+
+.uikit_container-content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 22px;
+    width: 60%;
+}
+
+.uikit_container-content .btn-start svg path {
+    fill: transparent;
+    stroke: var(--cor-secundaria);
+}
+
+/* SEÇÃO 6 COMENTARIOS */
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 22px;
+    text-align: center;
+}
+
+.comentarios_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 30px;
+    width: 100%;
+}
+
+.comentarios_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 24px;
+    width: 350px;
+    padding: 30px;
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
+}
+
+.comentarios_container-title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* SEÇÃO 7 PLANS */
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+    text-align: center;
+}
+
+.plans_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.plans_container-content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 24px;
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: left;
+    width: 30%;
+}
+
+.plan-title {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.plan-value {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.plan-value span {
+    font-weight: 500;
+}
+
+.plan-info {
+    display: flex;
+    gap: 12px;
+    font-weight: 600;
+}
+
+a.btn-plan {
+    width: 100%;
+    background-color: var(--cor-terciaria-claro);
+}
+
+a.btn-plan:hover {
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--cor-terciaria-hover);
+    color: var(--cor-terciaria-hover);
+}
+
+.plans_container-content.enterprise {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+
+.enterprise a.btn-plan {
+    background-color: var(--cor-secundaria);
+}
+
+.enterprise a.btn-plan:hover {
+    background-color: var(--cor-terciaria-claro);
 }
