@@ -1,5 +1,13 @@
 @media screen and (max-width: 1023px) {
 
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
     a.btn-contact.display-none {
         display: none;
     }
@@ -85,6 +93,23 @@
     div.plans_container-content {
         width: 100%;
     }
+
+    /* SEÇÃO 9 LANDING PAGE UI KIT */
+
+    div.page-ui-kit_container-bg {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .page-ui-kit_container {
+        padding: 0;
+        align-items: center;
+    }
+
 }
 
 /* RESPONSIVIDADE PARA TABLETS */
